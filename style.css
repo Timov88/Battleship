@@ -1,0 +1,60 @@
+/* :root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+  }
+  
+  #container {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+  }
+  
+  .grid-item {
+    padding: 1em;
+    border: 1px solid #ddd;
+    text-align: center;
+  } */
+body {
+    /* background-image: url('meri.jpg'); */
+}
+
+.playerDiv {
+    background: #9E9E9E, 0.2;
+    border: black 1px solid;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    white-space: nowrap;
+        
+
+}
+.enemyDiv {
+    background: #9E9E9E, 0.2;
+    border: black 1px solid;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    
+}
+
+#playerParent {
+    width: 45%;
+    display: inline-block;
+    background-image: url('meri.jpg');
+}
+
+#enemyParent {
+    width: 45%;
+    display: inline-block;
+    background-image: url('meri.jpg');
+}
+
+.row {
+    display: inline-block;
+    width: 100%;
+}
+
+#teksti {
+    font-weight: bold;
+}
